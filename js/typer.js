@@ -1,7 +1,7 @@
 /*
  
 The Project By CodErdal
-https://erdal.github.io
+https://coderdal.github.io
 
 */
 var typeText = document.querySelector(".type")

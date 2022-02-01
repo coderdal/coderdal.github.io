@@ -1,7 +1,7 @@
 /*
  
 The Project By CodErdal
-https://erdal.github.io
+https://coderdal.github.io
 
 */
 window.FontAwesomeKitConfig = {"asyncLoading":{"enabled":false},"autoA11y":{"enabled":true},"baseUrl":"https://ka-f.fontawesome.com","baseUrlKit":"https://kit.fontawesome.com","detectConflictsUntil":null,"iconUploads":{},"id":7618337,"license":"free","method":"css","minify":{"enabled":true},"token":"5a33210618","v4FontFaceShim":{"enabled":true},"v4shim":{"enabled":true},"v5FontFaceShim":{"enabled":false},"version":"5.15.4"};
