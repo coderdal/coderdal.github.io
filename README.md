@@ -1,4 +1,4 @@
-## Personal Animated Website | SEO Support
+## coderdal.github.io
 
 #### Online Demo: https://coderdal.github.io/
 
