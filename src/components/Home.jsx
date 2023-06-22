@@ -15,7 +15,7 @@ function Home() {
           <p className={styles.par}>
             As a Software Developer I have experience in developing Frontend and
             Backend applications. I have a strong foundation in
-            <span>HTML, CSS, JavaScript React JS, Vue JS and UI/UX</span> as
+            <span> HTML, CSS, JavaScript React JS, Vue JS and UI/UX</span> as
             well as experience with modern frameworks. I have a track record of
             delivering high-quality, user-friendly web applications, and I am
             skilled in both responsive design and mobile development.
