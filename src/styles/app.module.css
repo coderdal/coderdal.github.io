@@ -1,9 +1,17 @@
 .container {
   max-width: 1200px;
   margin: 8px auto;
-  padding: 0px 24px;
+  padding: 0px 50px;
 }
 
 .container > section {
   padding: 75px 0px 10px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 0px 30px;
+  }
 }
