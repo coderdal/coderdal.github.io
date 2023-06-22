@@ -1,0 +1,99 @@
+.section {
+  margin-top: 30px;
+}
+
+.section .myProjects {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--dark-color);
+}
+
+.section .list {
+  display: flex;
+  flex-direction: column;
+}
+
+.section .list .project {
+  display: flex;
+  padding: 20px 0px 20px 0px;
+  border-bottom: 1px solid var(--dark-color);
+}
+
+.section .list .project .details {
+  max-width: 85%;
+  padding-right: 15px;
+}
+
+.section .list .project .details .title {
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.section .list .project .details .description {
+  color: var(--dark-color);
+  opacity: 0.9;
+  font-weight: 600;
+}
+
+.section .list .project .details .detailList {
+  margin-top: 10px;
+  list-style: none;
+}
+
+.section .list .project .details .detailList .listItem {
+  font-weight: 600;
+  opacity: 0.95;
+  font-size: 0.95em;
+}
+
+.section .list .project .actions {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section .list .project .actions a {
+  font-size: 2.1em;
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transition: 300ms opacity ease-out;
+  color: var(--dark-color);
+}
+
+.section .list .project .actions a.disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  user-select: none;
+}
+
+.section .list .project .actions a:hover {
+  opacity: 0.6;
+}
+
+.section .list .project .actions a:not(:last-child) {
+  margin-right: 14px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1000px) {
+  .section .list .project {
+    flex-direction: column;
+  }
+  .section .list .project .actions {
+    margin-top: 15px;
+    justify-content: flex-start;
+  }
+  .section .list .project .details {
+    max-width: 100%;
+  }
+}
