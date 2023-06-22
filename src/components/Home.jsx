@@ -32,11 +32,11 @@ function Home() {
           <span className={styles.description}>Years in Web Development</span>
         </div>
         <div className={styles.skill}>
-          <span className={styles.count}>50+</span>
+          <span className={styles.count}>20+</span>
           <span className={styles.description}>Freelance Work</span>
         </div>
         <div className={styles.skill}>
-          <span className={styles.count}>20+</span>
+          <span className={styles.count}>30+</span>
           <span className={styles.description}>Projects</span>
         </div>
       </div>
