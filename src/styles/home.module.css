@@ -68,6 +68,25 @@
   opacity: 0.8;
 }
 
+/* Social */
+
+.social {
+  padding: 25px 0px 10px;
+  display: flex;
+}
+
+.social .socialLink {
+  font-size: 2.2em;
+  margin-right: 15px;
+  color: var(--dark-color);
+  cursor: pointer;
+  transition: 200ms opacity ease-in;
+}
+
+.social .socialLink:hover {
+  opacity: 0.7;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 800px) {
@@ -79,5 +98,10 @@
   }
   .section .skills {
     margin-top: 30px;
+  }
+
+  .social {
+    padding: 50px 0px 10px;
+    justify-content: center;
   }
 }
