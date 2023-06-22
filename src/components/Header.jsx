@@ -8,7 +8,14 @@ function Header() {
       <div className={styles.logo}>
         <Link to="/">me.</Link>
       </div>
-      <nav></nav>
+      <nav>
+        <div className={styles.link}>
+          <Link to="/">Home</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/experience">Experience</Link>
+          <Link to="/contact">Contact</Link>
+        </div>
+      </nav>
     </header>
   );
 }

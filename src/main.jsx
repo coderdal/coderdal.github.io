@@ -13,6 +13,8 @@ root.render(
       <Route path="/" element={<MainLayout />}>
         <Route path="" element={<h2>Home Page</h2>} />
         <Route path="projects" element={<h2>Projects</h2>} />
+        <Route path="experience" element={<h2>Experience</h2>} />
+        <Route path="contact" element={<h2>contact</h2>} />
         <Route path="*" element={<h2>404 Not Found</h2>} />
       </Route>
     </Routes>
