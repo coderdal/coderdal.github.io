@@ -3,3 +3,7 @@
   margin: 8px auto;
   padding: 0px 24px;
 }
+
+.container > section {
+  padding: 75px 0px 10px;
+}

@@ -1,0 +1,68 @@
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section .introduce {
+  margin-top: 30px;
+  max-width: 55%;
+}
+
+.section .introduce .hello {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.section .introduce span {
+  font-size: 1em;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.section .introduce .title {
+  font-size: 0.8em;
+  display: block;
+}
+
+.section .introduce .brief {
+  margin-top: 15px;
+}
+
+.section .introduce .brief .par {
+  color: var(--gray-color);
+  margin-bottom: 5px;
+}
+
+.section .introduce .brief .par span {
+  font-weight: 700;
+}
+
+/* Skills */
+
+.section .skills {
+  align-self: center;
+  text-align: right;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.section .skills .skill {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.section .skills .skill .count {
+  font-size: 2.2em;
+  font-weight: 800;
+  padding: 6px;
+  margin-right: 10px;
+  border-right: 1px solid var(--gray-color);
+}
+
+.section .skills .skill .description {
+  opacity: 0.8;
+}
