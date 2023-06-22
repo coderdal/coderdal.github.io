@@ -2,7 +2,11 @@ import styles from "@/styles/header.module.css";
 
 import { NavLink } from "react-router-dom";
 
+import { useTranslation } from "react-i18next";
+
 function Header() {
+  const { t } = useTranslation();
+
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
@@ -14,7 +18,7 @@ function Header() {
             to="/"
             className={({ isActive }) => (isActive ? "active-navlink" : "")}
           >
-            Home
+            {t("home")}
           </NavLink>
         </div>
         <div className={styles.link}>
@@ -22,7 +26,7 @@ function Header() {
             to="/projects"
             className={({ isActive }) => (isActive ? "active-navlink" : "")}
           >
-            Projects
+            {t("projects")}
           </NavLink>
         </div>
         <div className={styles.link}>
@@ -30,7 +34,7 @@ function Header() {
             to="/contact"
             className={({ isActive }) => (isActive ? "active-navlink" : "")}
           >
-            Contact
+            {t("contact")}
           </NavLink>
         </div>
       </nav>

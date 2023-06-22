@@ -1,11 +1,35 @@
 import ReactDOM from "react-dom/client";
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import MainLayout from "@/layouts/MainLayout.jsx";
 
 import "./index.css";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+//i18n configuration
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+
+import trLang from "@/i18n/tr.json";
+import enLang from "@/i18n/en.json";
+
+i18n.use(initReactI18next).init({
+  resources: {
+    en: {
+      translation: enLang,
+    },
+    tr: {
+      translation: trLang,
+    },
+  },
+  lng: localStorage.getItem("language") || "en",
+  fallbackLng: "en",
+
+  interpolation: {
+    escapeValue: false,
+  },
+});
 
 root.render(
   <Router>
