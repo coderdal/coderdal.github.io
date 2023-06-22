@@ -19,3 +19,7 @@ body {
   color: var(--dark-color);
   background: var(--white-color);
 }
+
+.active-navlink {
+  opacity: 0.8;
+}

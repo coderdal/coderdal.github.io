@@ -18,3 +18,23 @@
   font-weight: 700;
   font-size: 1.4em;
 }
+
+.navbar {
+  display: flex;
+}
+
+.navbar .link {
+  margin-right: 12px;
+}
+
+.navbar .link > a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.02em;
+  color: var(--dark-color);
+  transition: 250ms color ease-in;
+}
+
+.navbar .link > a:hover {
+  color: var(--gray-color);
+}
