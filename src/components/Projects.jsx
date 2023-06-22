@@ -113,7 +113,7 @@ function Projects() {
                 • Mobile Responsive | Dark-Light Theme.
               </li>
               <li className={styles.listItem}>
-                • Backend Service Communication.
+                • Backend Service Communication were.
               </li>
               <li className={styles.listItem}>
                 • Unique questions in each game.
@@ -151,13 +151,16 @@ function Projects() {
               <li className={styles.listItem}>
                 • Developed using Vue, Vuex, CSS.
               </li>
+              <li className={styles.listItem}>• Mobile Responsive.</li>
               <li className={styles.listItem}>
-                • Mobile Responsive | Dark-Light Theme.
+                • Session control service were made.
               </li>
               <li className={styles.listItem}>
-                • Firebase Service Communication.
+                • Firebase Service Communication were made.
               </li>
-              <li className={styles.listItem}>• Vuex state management.</li>
+              <li className={styles.listItem}>
+                • Vuex Store used for state management.
+              </li>
             </ul>
           </div>
           <div className={styles.actions}>
