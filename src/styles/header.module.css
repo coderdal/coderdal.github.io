@@ -11,3 +11,10 @@
   font-size: 1.8em;
   cursor: pointer;
 }
+
+.header .logo > a {
+  text-decoration: none;
+  color: var(--dark-color);
+  font-weight: 700;
+  font-size: 1.4em;
+}

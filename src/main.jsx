@@ -1,5 +1,20 @@
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import MainLayout from "@/layouts/MainLayout.jsx";
+
 import "./index.css";
 
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(
+  <Router>
+    <Routes>
+      <Route path="/" element={<MainLayout />}>
+        <Route path="" element={<h2>Home Page</h2>} />
+        <Route path="projects" element={<h2>Projects</h2>} />
+        <Route path="*" element={<h2>404 Not Found</h2>} />
+      </Route>
+    </Routes>
+  </Router>
+);
