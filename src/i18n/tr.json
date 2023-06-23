@@ -1,7 +1,27 @@
 {
-  "home": "Anasayfa",
-  "projects": "Projeler",
-  "contact": "İletişim",
-  "contactTitle": "Bana Ulaş",
-  "contactDescription": "Aşağıdaki sosyal platformlar üzerinden bana ulaşabilirsiniz !"
+  "navbar": {
+    "home": "Anasayfa",
+    "projects": "Projeler",
+    "contact": "İletişim"
+  },
+
+  "homepage": {
+    "yearsindev": "Yılı Aşkın Web Geliştirme",
+    "freelanceWork": "Freelance Çalışma",
+    "projects": "Aktif Proje",
+
+    "summaryFirst": "Bir Yazılım Geliştiricisi olarak Frontend ve Backend uygulamaları geliştirme konusunda deneyimim var. Modern Frameworkler ile ilgili deneyimimin yanı sıra",
+    "summarySecond": "HTML, CSS, JavaScript React JS, Vue JS ve UI/UX",
+    "summaryThird": "konusunda güçlü bir altyapıya sahibim. Yüksek kaliteli, kullanıcı dostu web uygulamaları sunma konusunda bir geçmişim var ve hem duyarlı tasarım hem de mobil geliştirme konusunda becerikliyim.",
+    "summaryFourth": "Tasarımcılar, Backend geliştiriciler ve proje yöneticileri dahil olmak üzere işlevler arası ekiplerle işbirliği yapma deneyimim var."
+  },
+
+  "projects": {
+    "title": "Projelerim"
+  },
+
+  "contact": {
+    "title": "Bana Ulaş",
+    "description": "Aşağıdaki sosyal platformlar üzerinden bana ulaşabilirsiniz !"
+  }
 }

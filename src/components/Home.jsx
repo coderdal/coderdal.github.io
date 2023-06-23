@@ -5,7 +5,11 @@ import { ImGithub } from "react-icons/im";
 
 import CountUp from "react-countup";
 
+import { useTranslation } from "react-i18next";
+
 function Home() {
+  const { t } = useTranslation();
+
   return (
     <>
       <section className={styles.section}>
@@ -19,17 +23,11 @@ function Home() {
           </div>
           <div className={styles.brief}>
             <p className={styles.par}>
-              As a Software Developer I have experience in developing Frontend
-              and Backend applications. I have a strong foundation in
-              <span> HTML, CSS, JavaScript React JS, Vue JS and UI/UX</span> as
-              well as experience with modern frameworks. I have a track record
-              of delivering high-quality, user-friendly web applications, and I
-              am skilled in both responsive design and mobile development.
+              {t("homepage.summaryFirst")}
+              <span> {t("homepage.summarySecond")}</span>{" "}
+              {t("homepage.summaryThird")}
             </p>
-            <p className={styles.par}>
-              I have experience collaborating with cross-functional teams,
-              including designers, back-end developers, and project managers.
-            </p>
+            <p className={styles.par}>{t("homepage.summaryFourth")}</p>
           </div>
         </div>
         <div className={styles.skills}>
@@ -37,19 +35,23 @@ function Home() {
             <span className={styles.count}>
               <CountUp end={6} />+
             </span>
-            <span className={styles.description}>Years in Web Development</span>
+            <span className={styles.description}>
+              {t("homepage.yearsindev")}
+            </span>
           </div>
           <div className={styles.skill}>
             <span className={styles.count}>
               <CountUp end={20} />+
             </span>
-            <span className={styles.description}>Freelance Work</span>
+            <span className={styles.description}>
+              {t("homepage.freelanceWork")}
+            </span>
           </div>
           <div className={styles.skill}>
             <span className={styles.count}>
               <CountUp end={30} />+
             </span>
-            <span className={styles.description}>Projects</span>
+            <span className={styles.description}>{t("homepage.projects")}</span>
           </div>
         </div>
       </section>

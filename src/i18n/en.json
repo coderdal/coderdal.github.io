@@ -1,7 +1,27 @@
 {
-  "home": "Home",
-  "projects": "Projects",
-  "contact": "Contact",
-  "contactTitle": "Contact Me",
-  "contactDescription": "You can reach me via the following social platforms!"
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "homepage": {
+    "yearsindev": "Years in Web Development",
+    "freelanceWork": "Freelance Work",
+    "projects": "Projects",
+
+    "summaryFirst": "As a Software Developer I have experience in developing Frontend and Backend applications. I have a strong foundation in",
+    "summarySecond": "HTML, CSS, JavaScript React JS, Vue JS and UI/UX",
+    "summaryThird": "as well as experience with modern frameworks. I have a track record of delivering high-quality, user-friendly web applications, and I am skilled in both responsive design and mobile development.",
+    "summaryFourth": "I have experience collaborating with cross-functional teams, including designers, back-end developers, and project managers."
+  },
+
+  "projects": {
+    "title": "My Projects"
+  },
+
+  "contact": {
+    "title": "Contact Me",
+    "description": "You can reach me via the following social platforms!"
+  }
 }

@@ -3,11 +3,15 @@ import styles from "@/styles/projects.module.css";
 import { VscOpenPreview } from "react-icons/vsc";
 import { FiGithub } from "react-icons/fi";
 
+import { useTranslation } from "react-i18next";
+
 function Projects() {
+  const { t } = useTranslation();
+
   return (
     <section className={styles.section}>
       <div className={styles.introduction}>
-        <h2 className={styles.myProjects}>My Projects</h2>
+        <h2 className={styles.myProjects}>{t("projects.title")}</h2>
       </div>
       <div className={styles.list}>
         <div className={styles.project}>

@@ -10,8 +10,8 @@ function Contact() {
 
   return (
     <section className={styles.section}>
-      <h2 className={styles.contactTitle}>{t("contactTitle")}</h2>
-      <p className={styles.contactDescription}>{t("contactDescription")}</p>
+      <h2 className={styles.contactTitle}>{t("contact.title")}</h2>
+      <p className={styles.contactDescription}>{t("contact.description")}</p>
       <p className={styles.contactDescription}>E-mail: erdalcodes@gmail.com</p>
       <div className={styles.socialLinks}>
         <a href="mailto:erdalcodes@gmail.com" target="_blank" rel="noreferrer">

@@ -18,7 +18,7 @@ function Header() {
             to="/"
             className={({ isActive }) => (isActive ? "active-navlink" : "")}
           >
-            {t("home")}
+            {t("navbar.home")}
           </NavLink>
         </div>
         <div className={styles.link}>
@@ -26,7 +26,7 @@ function Header() {
             to="/projects"
             className={({ isActive }) => (isActive ? "active-navlink" : "")}
           >
-            {t("projects")}
+            {t("navbar.projects")}
           </NavLink>
         </div>
         <div className={styles.link}>
@@ -34,7 +34,7 @@ function Header() {
             to="/contact"
             className={({ isActive }) => (isActive ? "active-navlink" : "")}
           >
-            {t("contact")}
+            {t("navbar.contact")}
           </NavLink>
         </div>
       </nav>
