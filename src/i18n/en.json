@@ -1,5 +1,7 @@
 {
   "home": "Home",
   "projects": "Projects",
-  "contact": "Contact"
+  "contact": "Contact",
+  "contactTitle": "Contact Me",
+  "contactDescription": "You can reach me via the following social platforms!"
 }

@@ -1,3 +1,36 @@
 .section {
   margin-top: 30px;
 }
+
+.section .contactTitle {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--dark-color);
+}
+
+.socialLinks {
+  width: 100%;
+  padding: 35px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.socialLinks a {
+  color: var(--dark-color);
+  font-size: 2.6em;
+  margin: 0px 16px;
+  transition: 200ms opacity ease-in-out;
+}
+
+.socialLinks a:hover {
+  opacity: 0.8;
+}
+
+.contactDescription {
+  margin: 10px 0px;
+  color: var(--dark-color);
+  opacity: 0.9;
+  font-weight: 600;
+}
