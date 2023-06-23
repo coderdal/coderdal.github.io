@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "@/layouts/MainLayout.jsx";
 import Home from "@/components/Home.jsx";
 import Projects from "@/components/Projects.jsx";
+import Contact from "@/components/Contact.jsx";
 
 import "./index.css";
 
@@ -40,7 +41,7 @@ root.render(
       <Route path="/" element={<MainLayout />}>
         <Route path="" element={<Home />} />
         <Route path="projects" element={<Projects />} />
-        <Route path="contact" element={<h2>contact</h2>} />
+        <Route path="contact" element={<Contact />} />
         <Route path="*" element={<h2>404 Not Found</h2>} />
       </Route>
     </Routes>
