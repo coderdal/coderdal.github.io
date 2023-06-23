@@ -3,6 +3,8 @@ import styles from "@/styles/home.module.css";
 import { IoMdMail, IoLogoLinkedin } from "react-icons/io";
 import { ImGithub } from "react-icons/im";
 
+import CountUp from "react-countup";
+
 function Home() {
   return (
     <>
@@ -32,15 +34,21 @@ function Home() {
         </div>
         <div className={styles.skills}>
           <div className={styles.skill}>
-            <span className={styles.count}>6+</span>
+            <span className={styles.count}>
+              <CountUp end={6} />+
+            </span>
             <span className={styles.description}>Years in Web Development</span>
           </div>
           <div className={styles.skill}>
-            <span className={styles.count}>20+</span>
+            <span className={styles.count}>
+              <CountUp end={20} />+
+            </span>
             <span className={styles.description}>Freelance Work</span>
           </div>
           <div className={styles.skill}>
-            <span className={styles.count}>30+</span>
+            <span className={styles.count}>
+              <CountUp end={30} />+
+            </span>
             <span className={styles.description}>Projects</span>
           </div>
         </div>
