@@ -1,14 +1,30 @@
 import Header from "@/components/Header.jsx";
 
+import Loading from "@/components/Loading.jsx";
+
 import styles from "@/styles/app.module.css";
 
 import { Outlet } from "react-router-dom";
 
-import { useEffect } from "react";
-
 import i18next from "i18next";
 
+import { useEffect, useState } from "react";
+
+import { useLocation } from "react-router-dom";
+
 function App() {
+  let location = useLocation();
+
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setIsLoading(true);
+
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 600);
+  }, [location]);
+
   useEffect(() => {
     if (localStorage.getItem("language")) return;
 
@@ -21,6 +37,10 @@ function App() {
     localStorage.setItem("language", userLanguage);
     i18next.changeLanguage(userLanguage);
   }, []);
+
+  if (isLoading) {
+    return <Loading />;
+  }
 
   return (
     <main className={styles.container}>
